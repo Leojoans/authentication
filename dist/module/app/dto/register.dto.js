@@ -28,6 +28,6 @@ __decorate([
     (0, class_validator_1.IsNotEmpty)(),
     (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
-], RegisterDto.prototype, "year", void 0);
+], RegisterDto.prototype, "dob", void 0);
 exports.RegisterDto = RegisterDto;
 //# sourceMappingURL=register.dto.js.map

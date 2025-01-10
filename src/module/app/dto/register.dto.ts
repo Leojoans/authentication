@@ -13,5 +13,5 @@ export class RegisterDto {
 
   @IsNotEmpty()
   @ApiProperty()
-  year:number;
+  dob:number;
 }

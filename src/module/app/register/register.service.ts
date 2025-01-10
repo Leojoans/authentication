@@ -19,28 +19,34 @@ export class RegisterService {
         console.log(registerDto.name)
         let name =registerDto.name;
         let age = registerDto.age;
-        let year = registerDto.year;
+        let year = registerDto.dob;
 
-        if('leo joans' != name){
+        const validUser = {
+          name: "Leo joans",
+          age: 18,
+          year: 2006 
+        };
+
+        if(name != validUser.name){
           result = {
             status: false,
-            message: 'Given username is wrong.',
+            message: 'The provided username is incorrect. Please enter the correct username.',
             data: null,
           };
         }
         
-        else if(age < 18){
+        else if(age < validUser.age){
           result = {
             status:false,
-            message:"given age is under 18",
+            message:"The given age is below 18. The minimum required age is 18.",
             data: null,
           };
         }
 
-        else if(year > 2010) {
+        else if(year > validUser.year) {
           result = {
             status: false,
-            message:'given year is not before 2010',
+            message:'The given year is after 2006. Please provide a year before 2006.',
             data:null,
           }
         } 
