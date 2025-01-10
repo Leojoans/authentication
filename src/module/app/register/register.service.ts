@@ -22,12 +22,12 @@ export class RegisterService {
         let year = registerDto.dob;
 
         const validUser = {
-          name: "Leo joans",
-          age: 18,
-          year: 2006 
+          userName: "Leo joans",
+          minimumAge: 18,
+          maximumBirthYear: 2006 
         };
 
-        if(name != validUser.name){
+        if(name != validUser.userName){
           result = {
             status: false,
             message: 'The provided username is incorrect. Please enter the correct username.',
@@ -35,7 +35,7 @@ export class RegisterService {
           };
         }
         
-        else if(age < validUser.age){
+        else if(age < validUser.minimumAge){
           result = {
             status:false,
             message:"The given age is below 18. The minimum required age is 18.",
@@ -43,7 +43,7 @@ export class RegisterService {
           };
         }
 
-        else if(year > validUser.year) {
+        else if(year > validUser.maximumBirthYear) {
           result = {
             status: false,
             message:'The given year is after 2006. Please provide a year before 2006.',
