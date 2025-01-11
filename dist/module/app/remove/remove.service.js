@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.RegisterService = void 0;
+exports.RemoveService = void 0;
 const common_1 = require("@nestjs/common");
-let RegisterService = class RegisterService {
+let RemoveService = class RemoveService {
     constructor() { }
-    async adminLogin(registerDto) {
+    async adminLogin(removeDto) {
         try {
             let result;
-            console.log(registerDto.name);
-            let name = registerDto.name;
-            let age = registerDto.age;
-            let year = registerDto.dob;
+            console.log(removeDto.name);
+            let name = removeDto.name;
+            let age = removeDto.age;
+            let year = removeDto.dob;
             const validUser = {
                 userName: "Leo joans",
                 minimumAge: 18,
@@ -60,9 +60,9 @@ let RegisterService = class RegisterService {
         }
     }
 };
-RegisterService = __decorate([
+RemoveService = __decorate([
     (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [])
-], RegisterService);
-exports.RegisterService = RegisterService;
-//# sourceMappingURL=register.service.js.map
+], RemoveService);
+exports.RemoveService = RemoveService;
+//# sourceMappingURL=remove.service.js.map

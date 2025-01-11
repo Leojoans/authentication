@@ -13,6 +13,12 @@ const login_controller_1 = require("./module/app/login/login.controller");
 const login_service_1 = require("./module/app/login/login.service");
 const register_controller_1 = require("./module/app/register/register.controller");
 const register_service_1 = require("./module/app/register/register.service");
+const user_controller_1 = require("./module/app/user/user.controller");
+const user_service_1 = require("./module/app/user/user.service");
+const admin_controller_1 = require("./module/app/admin/admin.controller");
+const admin_service_1 = require("./module/app/admin/admin.service");
+const remove_controller_1 = require("./module/app/remove/remove.controller");
+const remove_service_1 = require("./module/app/remove/remove.service");
 let CIndicator = class CIndicator {
 };
 CIndicator = __decorate([
@@ -22,11 +28,17 @@ CIndicator = __decorate([
         ],
         controllers: [
             login_controller_1.LoginController,
-            register_controller_1.RegisterController
+            register_controller_1.RegisterController,
+            user_controller_1.UserController,
+            admin_controller_1.AdminController,
+            remove_controller_1.RemoveController
         ],
         providers: [
             login_service_1.LoginService,
-            register_service_1.RegisterService
+            register_service_1.RegisterService,
+            user_service_1.UserService,
+            admin_service_1.AdminService,
+            remove_service_1.RemoveService
         ],
     })
 ], CIndicator);
