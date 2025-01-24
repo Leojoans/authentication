@@ -1,0 +1,23 @@
+[
+  {
+    "from": "Madurai",
+    "to": "hosur",
+    "fare": "300",
+    "arrival_time": "7:30",
+    "depart_time": "9:30"
+  },
+  {
+    "from": "Chennai",
+    "to": "Madurai",
+    "fare": "300RS",
+    "arrival_time": "06 PM",
+    "depart_time": "06 PM"
+  },
+  {
+    "from": "salem",
+    "to": "bangalore",
+    "fare": "800",
+    "arrival_time": "4:30",
+    "depart_time": "9:30"
+  }
+]

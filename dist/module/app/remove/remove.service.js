@@ -11,6 +11,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RemoveService = void 0;
 const common_1 = require("@nestjs/common");
+let data = [
+    {
+        'name': "ram",
+        "id": 1
+    },
+    {
+        'name': 'sri',
+        'id': 2
+    }
+];
 let RemoveService = class RemoveService {
     constructor() { }
     async adminLogin(removeDto) {
@@ -18,42 +28,13 @@ let RemoveService = class RemoveService {
             let result;
             console.log(removeDto.name);
             let name = removeDto.name;
-            let age = removeDto.age;
-            let year = removeDto.dob;
-            const validUser = {
-                userName: "Leo joans",
-                minimumAge: 18,
-                maximumBirthYear: 2006
-            };
-            if (name != validUser.userName) {
-                result = {
-                    status: false,
-                    message: 'The provided username is incorrect. Please enter the correct username.',
-                    data: null,
-                };
+            let id = removeDto.id;
+            const findUser = data.findIndex(data => data.name == 'sri');
+            console.log(findUser);
+            if (findUser) {
+                data.splice(findUser);
             }
-            else if (age < validUser.minimumAge) {
-                result = {
-                    status: false,
-                    message: "The given age is below 18. The minimum required age is 18.",
-                    data: null,
-                };
-            }
-            else if (year > validUser.maximumBirthYear) {
-                result = {
-                    status: false,
-                    message: 'The given year is after 2006. Please provide a year before 2006.',
-                    data: null,
-                };
-            }
-            else {
-                result = {
-                    status: true,
-                    message: 'Login success',
-                    data: null,
-                };
-            }
-            return result;
+            return data;
         }
         catch (err) {
             throw err;

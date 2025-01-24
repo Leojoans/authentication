@@ -10,7 +10,4 @@ export class UserDto {
     @ApiProperty()
     age: number;
   
-    @IsNotEmpty()
-    @ApiProperty()
-    dob:number;
 }

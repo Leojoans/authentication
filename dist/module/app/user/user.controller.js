@@ -26,7 +26,7 @@ let UserController = class UserController {
     }
 };
 __decorate([
-    (0, common_1.Get)('/user'),
+    (0, common_1.Post)('/user'),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [user_dto_1.UserDto]),

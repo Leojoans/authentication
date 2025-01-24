@@ -23,11 +23,6 @@ __decorate([
     (0, class_validator_1.IsNotEmpty)(),
     (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
-], RemoveDto.prototype, "age", void 0);
-__decorate([
-    (0, class_validator_1.IsNotEmpty)(),
-    (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", Number)
-], RemoveDto.prototype, "dob", void 0);
+], RemoveDto.prototype, "id", void 0);
 exports.RemoveDto = RemoveDto;
 //# sourceMappingURL=remove.dto.js.map

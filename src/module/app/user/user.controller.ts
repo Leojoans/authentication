@@ -19,7 +19,7 @@ import ResponseInterface from 'src/common/interface/response.interface';
   export class UserController {
     constructor(private readonly new_userService: UserService) {}
   
-    @Get('/user')
+    @Post('/user')
     async adminLogin(@Body() userDto: UserDto): Promise<ResponseInterface> {
       return await this.new_userService.adminLogin(userDto);
     }

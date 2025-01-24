@@ -24,10 +24,5 @@ __decorate([
     (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], UserDto.prototype, "age", void 0);
-__decorate([
-    (0, class_validator_1.IsNotEmpty)(),
-    (0, swagger_1.ApiProperty)(),
-    __metadata("design:type", Number)
-], UserDto.prototype, "dob", void 0);
 exports.UserDto = UserDto;
 //# sourceMappingURL=user.dto.js.map

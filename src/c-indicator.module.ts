@@ -14,6 +14,10 @@ import { AdminController } from './module/app/admin/admin.controller';
 import { AdminService } from './module/app/admin/admin.service';
 import { RemoveController } from './module/app/remove/remove.controller';
 import { RemoveService } from './module/app/remove/remove.service';
+import { FareController } from './module/app/fare/fare.controller';
+import { FareService } from './module/app/fare/fare.service';
+import { AuthendicationController } from './module/app/authendication/authendication.controller';
+import { AuthendicationService } from './module/app/authendication/authendication.service';
 
 @Module({
   imports: [
@@ -29,7 +33,10 @@ LoginController,
 RegisterController,
 UserController,
 AdminController,
-RemoveController
+RemoveController,
+FareController,
+AuthendicationController
+
   ],
   providers: [
     //service
@@ -37,7 +44,9 @@ LoginService,
 RegisterService,
 UserService,
 AdminService,
-RemoveService
+RemoveService,
+FareService,
+AuthendicationService
   ],
 })
 export class CIndicator {}

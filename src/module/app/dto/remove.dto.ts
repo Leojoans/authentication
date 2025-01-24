@@ -8,9 +8,5 @@ export class RemoveDto {
   
   @IsNotEmpty()
   @ApiProperty()
-  age: number;
-  
-  @IsNotEmpty()
-  @ApiProperty()
-  dob:number;
+  id : number;
 }

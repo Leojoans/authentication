@@ -51,8 +51,6 @@ export class LoginService {
             data: null,
           };
         }
-     
-      
 
       return result;
       // return user.length > 0 ? true : false;
