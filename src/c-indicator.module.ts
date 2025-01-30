@@ -18,6 +18,10 @@ import { FareController } from './module/app/fare/fare.controller';
 import { FareService } from './module/app/fare/fare.service';
 import { AuthendicationController } from './module/app/authendication/authendication.controller';
 import { AuthendicationService } from './module/app/authendication/authendication.service';
+import { BlueLineService } from './module/app/blueLine/blueLine.service';
+import { BlueLineController  } from './module/app/blueLine/blueLine.controller';
+
+
 
 @Module({
   imports: [
@@ -35,7 +39,8 @@ UserController,
 AdminController,
 RemoveController,
 FareController,
-AuthendicationController
+AuthendicationController,
+BlueLineController
 
   ],
   providers: [
@@ -46,7 +51,8 @@ UserService,
 AdminService,
 RemoveService,
 FareService,
-AuthendicationService
+AuthendicationService,
+BlueLineService
   ],
 })
 export class CIndicator {}

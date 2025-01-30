@@ -41,7 +41,7 @@ let AuthendicationService = class AuthendicationService {
                 };
             }
             const payload = { mobileNo: mobileNo };
-            const jwtToken = jwt.sign(payload, 'leo1234', {
+            const jwtToken = jwt.sign(payload, '1234567890', {
                 expiresIn: '1h',
             });
             return {
