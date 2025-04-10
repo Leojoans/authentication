@@ -1,0 +1,96 @@
+{
+    "routes": [
+        {
+          "from": "ChennaiBeach",
+          "Destinations": [
+            {
+              "stationName": "Wahermanpet",
+              "Fare": "5 Rs"
+            },
+            {
+              "stationName": "VOC Nagar",
+              "Fare": "10 Rs"
+            },
+            {
+              "stationName": "Wimco Nagar",
+              "Fare": "15 Rs"
+            }
+          ]
+        },
+        {
+          "from": "Velachery",
+          "Destinations": [
+            {
+              "stationName": "Indira Nagar",
+              "Fare": "5 Rs"
+            },
+            {
+              "stationName": "Mandaveli",
+              "Fare": "10 Rs"
+            },
+            {
+              "stationName": "Light House",
+              "Fare": "15 Rs"
+            },
+            {
+              "stationName": " Chennai Park",
+              "Fare": "20 Rs"
+            },
+            {
+              "stationName": "Royapuram",
+              "Fare": "25 Rs"
+            },
+            {
+              "stationName": "VOC Nagar",
+              "Fare": "30 Rs"
+            },
+            {
+              "stationName": "Wimco Nagar",
+              "Fare": "35 Rs"
+            }
+          ]
+        },
+        {
+          "from": "Gummidipundi",
+          "Destinations": [
+            {
+              "stationName": "Ponneri",
+              "Fare": "5 Rs"
+            },
+            {
+              "stationName": "Nandiyampakkam",
+              "Fare": "10 Rs"
+            },
+            {
+              "stationName": "Ennore",
+              "Fare": "15 Rs"
+            },
+            {
+              "stationName": " Wimco Nagar",
+              "Fare": "20 Rs"
+            }
+          ]
+        },
+        {
+          "from": "Pattaravakkam",
+          "Destinations": [
+            {
+              "stationName": "Villivakkam",
+              "Fare": "5 Rs"
+            },
+            {
+              "stationName": "Perambur",
+              "Fare": "10 Rs"
+            },
+            {
+              "stationName": "Tondiarpet",
+              "Fare": "15 Rs"
+            },
+            {
+              "stationName": " Wimco Nagar",
+              "Fare": "20 Rs"
+            }
+          ]
+        }
+      ]
+    }

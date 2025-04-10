@@ -1,0 +1,20 @@
+{
+    "source": "Hosur",
+    "Destinations":[
+        {
+            "stationName":"Dharmapuri",
+            "Fare": "50 Rs"
+
+        },
+        {
+            "stationName":"Dharmapuri",
+            "Fare": "50 Rs"
+
+        } ,
+         {
+            "stationName":"Dharmapuri",
+            "Fare": "50 Rs"
+
+        }
+    ]
+}

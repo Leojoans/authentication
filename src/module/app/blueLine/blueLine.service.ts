@@ -178,5 +178,4 @@ export class BlueLineService {
         throw err;
     }
 }
-
   }

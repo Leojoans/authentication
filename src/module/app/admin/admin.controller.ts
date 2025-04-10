@@ -12,7 +12,7 @@ import { AdminService } from './admin.service';
 import { AdminDto } from '../dto/admin.dto';
 import ResponseInterface from 'src/common/interface/response.interface';
   
-  // @UseGuards(JwtAuthGuard)
+// @UseGuards(JwtAuthGuard)
   @ApiTags('Admin Controller')
   @ApiBearerAuth('JWT-auth')
   @Controller('admin')

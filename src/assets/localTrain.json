@@ -1,0 +1,236 @@
+{
+    "routes": [
+      {
+        "from": "ChennaiBeach",
+        "to": "WimcoNagar",
+        "trains": [
+          {
+            "trainNo": 42701,
+            "ETA": "05:10 am",
+            "ETD": "05:20 am"
+          },
+          {
+            "trainNo": 42601,
+            "ETA": "09:30 am",
+            "ETD": "05:40 am"
+          },
+          {
+            "trainNo": 42501,
+            "ETA": "11:50 am",
+            "ETD": "11:55 am"
+          },
+          {
+            "trainNo": 42603,
+            "ETA": "12:35 pm",
+            "ETD": "12:40 pm"
+          },
+          {
+            "trainNo": 42605,
+            "ETA": "2:35 pm",
+            "ETD": "2:40 pm"
+          },
+          {
+            "trainNo": 42607,
+            "ETA": "3:40 pm",
+            "ETD": "3:45 pm"
+          },
+          {
+            "trainNo": 42609,
+            "ETA": "6:40 pm",
+            "ETD": "6:45 pm"
+          },
+          {
+            "trainNo": 42521,
+            "ETA": "7:05 pm",
+            "ETD": "7:10 pm"
+          },
+          {
+            "trainNo": 42611,
+            "ETA": "7:55 pm",
+            "ETD": "8:00 pm"
+          },
+          {
+            "trainNo": 42613,
+            "ETA": "9:15 pm",
+            "ETD": "9:20 pm"
+          }
+        ]
+      },
+      {
+        "from": "ChennaiCentral",
+        "to": "WimcoNagar",
+        "trains": [
+          {
+            "trainNo": 42401,
+            "ETA": "04:10 am",
+            "ETD": "04:15 am"
+          },
+          {
+            "trainNo": 42403,
+            "ETA": "04:55 am",
+            "ETD": "05:00 am"
+          },
+          {
+            "trainNo": 42005,
+            "ETA": "06:45 am",
+            "ETD": "06:50 am"
+          },
+          {
+            "trainNo": 42011,
+            "ETA": "09:25 am",
+            "ETD": "09:30 am"
+          },
+          {
+            "trainNo": 42015,
+            "ETA": "11:30 am",
+            "ETD": "11:35 am"
+          },
+          {
+            "trainNo": 42017,
+            "ETA": "01:35 pm",
+            "ETD": "01:40 pm"
+          },
+          {
+            "trainNo": 42021,
+            "ETA": "04:05 pm",
+            "ETD": "04:10 pm"
+          },
+          {
+            "trainNo": 42423,
+            "ETA": "05:55 pm",
+            "ETD": "06:00 pm"
+          },
+          {
+            "trainNo": 42029,
+            "ETA": "07:30 pm",
+            "ETD": "07:35 pm"
+          },
+          {
+            "trainNo": 42031,
+            "ETA": "08:45 pm",
+            "ETD": "08:50 pm"
+          },
+          {
+            "trainNo": 42035,
+            "ETA": "10:30 pm",
+            "ETD": "10:35 pm"
+          },
+          {
+            "trainNo": 42037,
+            "ETA": "11:15 pm",
+            "ETD": "11:20 pm"
+          }
+        ]
+      },
+      {
+        "from": "Velachery",
+        "to": "WimcoNagar",
+        "trains": [
+          {
+            "TrainNo":  42751,
+            "ETA":"04:45 am",
+            "ETD":"04:50 am"
+          },
+          {
+              "TrainNo": 42651,
+              "ETA":"08:45 am",
+              "ETD":"08:50 am"
+          },
+          {
+              "TrainNo": 42851,
+              "ETA":"01:50 pm",
+              "ETD":"01:55 pm"
+          },
+          {
+              "TrainNo":  42653,
+              "ETA":"02:50 pm",
+              "ETD":"02:55 pm"
+          },
+          {
+              "TrainNo":  42655,
+              "ETA":"05:40 pm",
+              "ETD":"05:45 pm"
+          },
+          {
+              "TrainNo":  42657,
+              "ETA":"07:05 pm",
+              "ETD":"07:10 pm"
+          }
+        ]
+      },
+      {
+        "from": "Gummidipundi",
+        "to": "WimcoNagar",
+        "trains": [
+          {
+            "TrainNo":  42002,
+            "ETA":"03:45 am",
+            "ETD":"03:50 am"
+          },
+          {
+              "TrainNo": 42004,
+              "ETA":"04:45 am",
+              "ETD":"04:50 am"
+          },
+          {
+              "TrainNo": 42006,
+              "ETA":"05:05 am",
+              "ETD":"05:10 am"
+          },
+          {
+              "TrainNo":  42406,
+              "ETA":"07:25 am",
+              "ETD":"07:30 am"
+          },
+          {
+              "TrainNo":  42408,
+              "ETA":"10:35 am",
+              "ETD":"10:40 am"
+          },
+          {
+              "TrainNo":  42022,
+              "ETA":"01:25 pm",
+              "ETD":"01:30 pm"
+          },
+          {
+            "TrainNo":  42026,
+            "ETA":"03:10 pm",
+            "ETD":"03:15 pm"
+        },
+        {
+            "TrainNo":  42034,
+            "ETA":"06:05 pm",
+            "ETD":"06:10 pm"
+        },
+        {
+            "TrainNo":  42610,
+            "ETA":"08:30 pm",
+            "ETD":"08:35 pm"
+        },
+        {
+            "TrainNo":  42042,
+            "ETA":"10:25 pm",
+            "ETD":"10:30 pm"
+        }
+        ]
+      },
+      {
+        "from": "Pattaravakkam",
+        "to": "WimcoNagar",
+        "trains": [
+          {
+            "TrainNo":  43862,
+            "ETA":"05:05 am",
+            "ETD":"05:13 am"
+          },
+          {
+              "TrainNo": 43852,
+              "ETA":"06:00 am",
+              "ETD":"06:03 am"
+          }
+        ]
+      }
+    ]
+  }
+  
+  

@@ -1,10 +1,13 @@
-
 import { Module } from '@nestjs/common';
-import { CIndicator } from './c-indicator.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { typeormOrmConfig } from './config/typeorm.config';
+import { CIndicator } from './module/app/c-indicator.module';
+
 
 @Module({
-  imports: [   
-    CIndicator,
+  imports: [
+    TypeOrmModule.forRoot(typeormOrmConfig('login')), 
+    CIndicator, 
   ],
 })
 export class AppModule {}
